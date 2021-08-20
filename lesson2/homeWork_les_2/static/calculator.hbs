@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>Ви авторизувалися! Вітаємо на сторінці нашого калькулятора!!!</h1>
+<h2>Calculator</h2>
+
+<input type="number" placeholder="Num 1" id="input1">
+<select style="margin-right: 30px;" id="selectValue">
+    <option value="multiply">x</option>
+    <option value="add">+</option>
+    <option value="subtract">-</option>
+    <option value="divide">&divide;</option>
+</select>
+<input a type="number" placeholder="Num 1" id="input2">
+<button onclick="outputCalc()" a>Calculate</button>
+<p id="mathOutput"></p>
+
+<script>
+    const mathOutput = document.getElementById('mathOutput');
+
+    let selValue = document.getElementById("selectValue");
+
+    let totalMaths;
+
+    function outputCalc() {
+        let input11 = document.getElementById('input1');
+        let input22 = document.getElementById('input2');
+
+        let input1 = parseFloat(input11.value) || 0;
+        let input2 = parseFloat(input22.value) || 0;
+
+        if (selValue.selectedIndex == "0") {
+            totalMaths = 0;
+            totalMaths = input1 * input2;
+            mathOutput.innerHTML = totalMaths;
+        } else if (selValue.selectedIndex == "1") {
+            totalMaths = 0;
+            totalMaths = input1 + input2;
+            mathOutput.innerHTML = totalMaths;
+        } else if (selValue.selectedIndex == "2") {
+            totalMaths = 0;
+            totalMaths = input1 - input2;
+            mathOutput.innerHTML = totalMaths;
+        } else if (selValue.selectedIndex == "3") {
+            totalMaths = 0;
+            totalMaths = input1 / input2;
+            mathOutput.innerHTML = totalMaths;
+        }
+
+    }
+
+</script>
+</body>
+</html>

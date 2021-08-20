@@ -4,20 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edeec5c2-0c09-49ad-88c4-22f1f8fa2bdf" name="Changes" comment="create folder homework_les_1 and practice_les_1.&#10;Homework and practical work performed.">
-      <change beforePath="$PROJECT_DIR$/homeWoek_les_1/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeWoek_les_1/female_1800/Igor.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeWoek_les_1/female_1800/Ira.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeWoek_les_1/female_1800/Natalya.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeWoek_les_1/female_1800/Viktor.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeWoek_les_1/male_2000/Ivan.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeWoek_les_1/male_2000/Olya.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeWoek_les_1/male_2000/Ostap.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeWoek_les_1/male_2000/Tanya.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/les_1/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/les_1/dir/file_1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/les_1/dir/text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice_les_1/app.js" beforeDir="false" />
+    <list default="true" id="edeec5c2-0c09-49ad-88c4-22f1f8fa2bdf" name="Changes" comment="add files lesson2 from Viktor's git">
+      <change afterPath="$PROJECT_DIR$/lesson2/homeWork_les_2/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/homeWork_les_2/config/variables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/homeWork_les_2/db/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/homeWork_les_2/static/calculator.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/homeWork_les_2/static/index.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/homeWork_les_2/static/login.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/homeWork_les_2/static/register.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/les_2/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/les_2/config/variables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/les_2/db/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/les_2/static/login.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/les_2/static/users.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/config/variables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/db/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/static/login.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/static/users.hbs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +60,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -77,6 +84,16 @@
       <recent name="$PROJECT_DIR$/practice_les_1" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lesson2/app.js" working-dir="$PROJECT_DIR$/lesson2">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,6 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1629218848320</updated>
       <workItem from="1629218851159" duration="18793000" />
+      <workItem from="1629345070870" duration="17953000" />
     </task>
     <task id="LOCAL-00001" summary="create folder homework_les_1 and practice_les_1.&#10;Homework and practical work performed.">
       <created>1629288726356</created>
@@ -94,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629288726356</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add files lesson2 from Viktor's git">
+      <created>1629345269743</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629345269743</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add files lesson2 from Viktor's git">
+      <created>1629345465259</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629345465259</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,10 +142,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="create folder homework_les_1 and practice_les_1.&#10;Homework and practical work performed." />
-    <option name="LAST_COMMIT_MESSAGE" value="create folder homework_les_1 and practice_les_1.&#10;Homework and practical work performed." />
+    <MESSAGE value="add files lesson2 from Viktor's git" />
+    <option name="LAST_COMMIT_MESSAGE" value="add files lesson2 from Viktor's git" />
   </component>
 </project>
