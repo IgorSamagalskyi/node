@@ -4,26 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edeec5c2-0c09-49ad-88c4-22f1f8fa2bdf" name="Changes" comment="add files lesson2 from Viktor's git">
-      <change afterPath="$PROJECT_DIR$/lesson2/homeWork_les_2/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/homeWork_les_2/config/variables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/homeWork_les_2/db/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/homeWork_les_2/static/calculator.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/homeWork_les_2/static/index.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/homeWork_les_2/static/login.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/homeWork_les_2/static/register.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/les_2/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/les_2/config/variables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/les_2/db/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/les_2/static/login.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/les_2/static/users.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    <list default="true" id="edeec5c2-0c09-49ad-88c4-22f1f8fa2bdf" name="Changes" comment="homeWork - lesson2 (page: login, register, calculator)">
+      <change afterPath="$PROJECT_DIR$/lesson2/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/config/variables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/homeWork_les_3/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/homeWork_les_3/config/variables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/homeWork_les_3/controllers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/homeWork_les_3/controllers/login.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/homeWork_les_3/controllers/register.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/homeWork_les_3/controllers/user.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/homeWork_les_3/db/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/homeWork_les_3/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/homeWork_les_3/router/login.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/homeWork_les_3/router/register.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/homeWork_les_3/router/user.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/homeWork_les_3/static/currentUser.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/homeWork_les_3/static/index.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/homeWork_les_3/static/login.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/homeWork_les_3/static/register.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/homeWork_les_3/static/saccsessfyl.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/homeWork_les_3/static/users.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/config/variables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/db/users.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/static/login.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/static/users.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/homeWork_les_2/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/homeWork_les_2/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/les_2/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/les_2/config/variables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,18 +68,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.4" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.17.9" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/lesson3/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -103,7 +115,18 @@
       <option name="presentableId" value="Default" />
       <updated>1629218848320</updated>
       <workItem from="1629218851159" duration="18793000" />
-      <workItem from="1629345070870" duration="17953000" />
+      <workItem from="1629345070870" duration="25026000" />
+      <workItem from="1629583910599" duration="9121000" />
+      <workItem from="1629617268797" duration="366000" />
+      <workItem from="1629617641332" duration="22908000" />
+      <workItem from="1629670791633" duration="754000" />
+      <workItem from="1629671577269" duration="611000" />
+      <workItem from="1629672237003" duration="625000" />
+      <workItem from="1629672919553" duration="281000" />
+      <workItem from="1629673227497" duration="254000" />
+      <workItem from="1629673749625" duration="183000" />
+      <workItem from="1629673937621" duration="365000" />
+      <workItem from="1629674308002" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="create folder homework_les_1 and practice_les_1.&#10;Homework and practical work performed.">
       <created>1629288726356</created>
@@ -126,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629345465259</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="homeWork - lesson2 (page: login, register, calculator)">
+      <created>1629473485561</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1629473485563</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +178,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="create folder homework_les_1 and practice_les_1.&#10;Homework and practical work performed." />
     <MESSAGE value="add files lesson2 from Viktor's git" />
-    <option name="LAST_COMMIT_MESSAGE" value="add files lesson2 from Viktor's git" />
+    <MESSAGE value="homeWork - lesson2 (page: login, register, calculator)" />
+    <option name="LAST_COMMIT_MESSAGE" value="homeWork - lesson2 (page: login, register, calculator)" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

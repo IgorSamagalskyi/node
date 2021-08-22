@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Users Page</title>
+    <style>
+        body {
+            width: 600px;
+            margin: 0 auto;
+            background: #39b8b8;
+            padding-top: 40px;
+        }
+
+        .center {
+            display: flex;
+            justify-content: space-between;
+            text-decoration: none;
+        }
+
+        h1, div {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="body">
+    <div class="center">
+        <span><a href="/login">Login</a></span>
+        <span><a href="/register">Registration</a></span>
+        <span><a href="/users">All users</a></span>
+    </div>
+
+    <h1>USERS PAGE</h1>
+    <div>
+        {{#each users}}
+            <div>
+                <div>{{ this.name }}</div>
+                <div>{{ this.email }}</div>
+                <div>{{ this.gender }}</div>
+                <div>{{ this.age }}</div>
+            </div>
+            <hr>
+            <br>
+        {{/each}}
+    </div>
+
+</div>
+
+</body>
+
+</html>

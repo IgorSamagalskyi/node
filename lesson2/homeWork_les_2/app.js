@@ -26,7 +26,7 @@ app.listen(PORT, () => {
 
 
 app.get('/', (req, res) => {
-    res.render('index.hbs', {users});
+    res.render('index.hbs');
 });
 
 
@@ -70,7 +70,6 @@ app.post('/register', (req, res) => {
             }
         });
         res.redirect('/login')
-        return;
     } catch {
         res.redirect('/register')
     }
